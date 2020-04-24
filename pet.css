@@ -1,0 +1,189 @@
+body{
+    background-color: #d8aa96;
+    color: #312726;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 840px;
+    height: 500px;
+    margin-top: 120px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+.avatar{
+    height: 100%;
+    width: 310px;
+    background-color: #807182;
+     text-align: center;
+}
+.top{
+    padding: 40px 55px 0 60px;
+    display: flex;
+}
+.img_chan img{
+    height: 40px;
+    width: 40px;
+}
+.top span{
+    font-weight: 700;
+    font-size: 21px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.bottom{
+    padding-top: 69.6%;
+}
+.bottom .dog{
+    height: 200px;
+    width: 200px;
+}
+.information{
+    height: 100%;
+    width: 530px;
+    background-color: #fAc7c2;
+    line-height: 30px;
+}
+.T1{
+    height: 81.635%;
+    padding-left: 40px;
+}
+.T2{
+    height: 19.465%;
+}
+table tr .c23{
+    width: 250px;
+}
+.l1{
+    cursor: pointer;
+}
+.text{
+    height: 35px;
+    width: 180px;
+    border: 0px;
+    border-radius: 3px;
+}
+input[type=text]{
+    padding: 0px 10px;
+}
+input[type=radio]{
+    visibility: hidden;
+}
+.gender{
+    width: 180px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 3px;
+    position: relative;
+    line-height: 40px;
+}
+.gender label{
+    width: 82px;
+    height: 30px;
+    background: #FFFFFF;
+    border-radius: 3px;
+    position: absolute;
+    line-height: 30px;
+    text-align: center;
+    top: 5px;
+    cursor: pointer;
+}
+.label1{
+    left: 5px;
+}
+.label2{
+    left: 93px;
+}
+#female:checked + label{
+    background: #F7B1AB;
+}
+#male:checked + label{
+    background: #F7B1AB;
+}
+#spayed:checked + label{
+    background: #F7B1AB;
+}
+#neutered:checked + label{
+    background: #F7B1AB;
+}
+input[type=file]{
+    width: 0px;
+}
+.weight{
+    width: 434px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 3px;
+    position: relative;
+    line-height: 40px;
+}
+.weight label{
+    top: 5px;
+    width: 82px;
+    height: 30px;
+    background: #FFFFFF;
+    border-radius: 3px;
+    position: absolute;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.weight1{
+    left: 5px;
+}
+.weight2{
+    left: 119px;
+}
+.weight3{
+    left: 233px;
+}
+.weight4{
+    left: 347px;
+}
+#choose1:checked + label{
+    background: #F7B1AB;
+}
+#choose2:checked + label{
+    background: #F7B1AB;
+}
+#choose3:checked + label{
+    background: #F7B1AB;
+}
+#choose4:checked + label{
+    background: #F7B1AB;
+}
+.butt{
+    background-color: #807182;
+    color: #ffffff;
+    margin-left: 245px;
+}
+.button{
+    background: #ffffff;
+    width: 490px;
+    padding-left: 40px;
+    line-height: 30px;
+    height: 70px;
+    line-height: 60px;
+    float: left;
+}
+.button .butt{
+    background-color: #807182;
+    color: #ffffff;
+    margin-left: 250px;
+}
+.button .b1{
+    width: 95px;
+    height: 35px;
+    border-radius: 30px;
+    border: 1px solid #807182;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+input[type=submit]{
+    width: 95px;
+    height: 35px;
+    border-radius: 30px;
+    border: 1px solid #807182;
+    background: #FFFFFF;
+    cursor: pointer;
+}

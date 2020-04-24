@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pet</title>
+    <link rel="stylesheet" href="pet.css">
+</head>
+<body>
+    <div class="container">
+        <div class="avatar">
+          <div class="top">
+              <div class="img_chan">
+                <img src="chancho1.png" alt="">
+              </div>
+            <span>PUPASSURE</span>
+          </div>
+          <div class="bottom">
+            <img src="pet.png" class="dog">
+          </div>
+        </div>
+        <div class="information">
+          <div class="T1">
+            <h1>Yay, puppies! Ensure your<br>pup gets the best care!</h1>
+                <form>
+                    <table>
+                        <tr>
+                            <td>
+                                Name<br/>
+                                <input class="text" type="text" placeholder="Pet's breed">
+                            </td>
+                            <td>
+                                <input id="image" type="file">
+                                <label for="image" class="l1">
+                                    <img src="iconphoto.png" height="40px" width="40px">
+                                </label>
+                            </td>
+                            <td><label for="image" class="l1">Upload a photo</label></td>
+                        </tr>
+                        <tr>
+                            <td class="c23">
+                                Breed<br/>
+                                <input class="text" type="text" placeholder=" Pet's breed">
+                            </td>
+                            <td colspan="2">
+                                Birthday<br/>
+                                <input class="text" type="date">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Gender
+						        <div class="gender">
+							        <input type="radio" id="female" name="gender" checked>
+							        <label class="label1" for="female">Female</label>
+							        <input type="radio" id="male" name="gender">
+							        <label class="label2" for="male">Male</label>
+						        </div>
+                            </td>
+                            <td colspan="2">
+                                Spayed or Neutered<br/>
+						        <div class="gender">
+							        <input type="radio" id="spayed" name="SN" checked>
+							        <label class="label1" for="spayed">Spayed</label>
+							        <input type="radio" id="neutered" name="SN">
+							        <label class="label2" for="neutered">Neutered</label>
+						        </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Weight<br>
+						        <div class="weight">
+							        <input type="radio" id="choose1" name="weigth" checked>
+							        <label class="weight1" for="choose1">0-25 lbs</label>
+							        <input type="radio" id="choose2" name="weigth">
+							        <label class="weight2" for="choose2">25-50 lbs</label>
+							        <input type="radio" id="choose3" name="weigth">
+							        <label class="weight3" for="choose3">50-100 lbs</label>
+							        <input type="radio" id="choose4" name="weigth">
+							        <label class="weight4" for="choose4">100+ lbs</label>
+						        </div>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+          </div>
+          <div class="T2">
+            <div class="button">
+                <button class="b1" type="reset" value="reset">Back</button>
+                <input class="butt" type="submit" onclick="alert('Cảm ơn bạn đã hoàn thành form!')" value="Next">
+            </div>
+          </div>
+        </div>
+    </div>
+</body>
+</html>
